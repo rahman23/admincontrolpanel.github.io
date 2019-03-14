@@ -5,6 +5,9 @@ body{
 
 }
 
+.container{
+    margin-left: 5% !important;
+}
 .active{
     font-size:1.2rem;
     font-weight:600;

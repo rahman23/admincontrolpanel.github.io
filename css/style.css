@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding:0;  
+    margin:0;
+
+}
+
+.active{
+    font-size:1.2rem;
+    font-weight:600;
+}
+.sidebar{
+    min-height:100vh;
+
+}
+
+
+@media (max-width:450px){
+   
+    .sidebar-down{
+        bottom:initial;
+    }
+    .sidebar{
+        min-height:60vh
+    }
+    #actions .btn{
+        margin-bottom:10px;
+    }
+
+}

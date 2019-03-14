@@ -2,7 +2,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     padding:0;  
     margin:0;
-
 }
 
 .container{
@@ -17,9 +16,7 @@ body{
 
 }
 
-
-@media (max-width:450px){
-   
+@media (max-width:450px){   
     .sidebar-down{
         bottom:initial;
     }
@@ -29,5 +26,4 @@ body{
     #actions .btn{
         margin-bottom:10px;
     }
-
 }

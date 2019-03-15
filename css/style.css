@@ -16,14 +16,17 @@ body{
 
 }
 
-@media (max-width:450px){   
-    .sidebar-down{
-        bottom:initial;
-    }
+@media (max-width:420px){   
     .sidebar{
-        min-height:60vh
+        min-height:10vh;
+    
     }
+    .sidebar-up{
+        margin-bottom: 80px;
+    } 
     #actions .btn{
-        margin-bottom:10px;
+       
+        display:contents;
     }
 }
+
